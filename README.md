@@ -2,7 +2,7 @@
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-3776AB?logo=Python&logoColor=FFFFFF&style=flat)](https://www.python.org/) [![issues](https://img.shields.io/github/issues/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/issues) [![issues](https://img.shields.io/github/issues-closed/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/issues?q=is%3Aissue+is%3Aclosed) [![license](https://img.shields.io/github/license/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/blob/master/LICENSE) ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=liyansong2018.firmware-analysis-plus)
 
-> Enhanced support for [Firmware Analysis Plus](https://github.com/liyansong2018/firmware-analysis-plus).
+> Enhanced docker support for [Firmware Analysis Plus](https://github.com/liyansong2018/firmware-analysis-plus).
 
 👉 [**English**](https://github.com/liyansong2018/firmware-analysis-plus/blob/master/README_EN.md)
 
