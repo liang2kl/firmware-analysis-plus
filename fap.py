@@ -157,11 +157,9 @@ def final_run(image_id, arch, qemu_dir):
     print ("[+] All set! Press ENTER to run the firmware...")
     input ("[+] When running, press Ctrl + A X to terminate qemu")
 
-    print ("[+] Command line:", runsh_path)
-    run_cmd = ["--", runsh_path]
-    child = pexpect.spawn("sudo", run_cmd, cwd=firmadyne_path)
-    child.sendline(sudo_pass)
-    child.interact()
+    print("[+] Command line:", runsh_path)
+    run_cmd = [runsh_path]
+    subprocess.call(run_cmd, cwd=firmadyne_path)
 
 
 def identify_host():
