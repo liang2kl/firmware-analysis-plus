@@ -2,6 +2,8 @@
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-3776AB?logo=Python&logoColor=FFFFFF&style=flat)](https://www.python.org/) [![issues](https://img.shields.io/github/issues/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/issues) [![issues](https://img.shields.io/github/issues-closed/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/issues?q=is%3Aissue+is%3Aclosed) [![license](https://img.shields.io/github/license/liyansong2018/firmware-analysis-plus)](https://github.com/liyansong2018/firmware-analysis-plus/blob/master/LICENSE) ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=liyansong2018.firmware-analysis-plus)
 
+> Enhanced support for [Firmware Analysis Plus](https://github.com/liyansong2018/firmware-analysis-plus).
+
 👉 [**English**](https://github.com/liyansong2018/firmware-analysis-plus/blob/master/README_EN.md)
 
 上游项目支持：[binwalk](https://github.com/ReFirmLabs/binwalk)、[firmadyne](https://github.com/firmadyne/firmadyne)、[firmware-analysis-toolkit](https://github.com/attify/firmware-analysis-toolkit)
@@ -15,13 +17,13 @@
 - 多数嵌入式设备含有一个 `nvram` 芯片，保存一些重要的配置信息，`firmadyne` 实现一个新的 `libnvram.so` 库文件，通过代码模拟固件启动时加载 `nvram` 配置信息的行为。
 
 
-| Fap 版本                                                     | 支持系统                                               | 备注                                                         |
-| ------------------------------------------------------------ |  ------------------------------------------------------ | ------------------------------------------------------------ |
-| [v0.1](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v0.1) | Ubuntu16.04 / Ubuntu 18.04 / Kali 2020.02              | [Fap v0.1 版本手册](https://github.com/liyansong2018/firmware-analysis-plus/wiki/FAP-v0.1-%E7%89%88%E6%9C%AC%E6%89%8B%E5%86%8C) |
-| [v1.0](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v1.0) | Kali 2020.02                                           | 测试版本                                                     |
-| [v2.0](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.0) | Kali 2020.04 / Kali 2022.01                            | 备份fat                                                      |
-| [v2.3](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.3) | Ubuntu16.04 / Kali 2020.04                             | 修复多个bug                                                  |
-| [v2.3.1](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.3.1) | Ubuntu16.04 / Ubuntu18.04 / Ubuntu20.04 / Kali 2020.04 | 提高兼容性&添加Docker                                        |
+| Fap 版本                                                                              | 支持系统                                               | 备注                                                                                                                            |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| [v0.1](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v0.1)     | Ubuntu16.04 / Ubuntu 18.04 / Kali 2020.02              | [Fap v0.1 版本手册](https://github.com/liyansong2018/firmware-analysis-plus/wiki/FAP-v0.1-%E7%89%88%E6%9C%AC%E6%89%8B%E5%86%8C) |
+| [v1.0](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v1.0)     | Kali 2020.02                                           | 测试版本                                                                                                                        |
+| [v2.0](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.0)     | Kali 2020.04 / Kali 2022.01                            | 备份fat                                                                                                                         |
+| [v2.3](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.3)     | Ubuntu16.04 / Kali 2020.04                             | 修复多个bug                                                                                                                     |
+| [v2.3.1](https://github.com/liyansong2018/firmware-analysis-plus/releases/tag/v2.3.1) | Ubuntu16.04 / Ubuntu18.04 / Ubuntu20.04 / Kali 2020.04 | 提高兼容性&添加Docker                                                                                                           |
 
 🚩 **注意** 🚩
 
