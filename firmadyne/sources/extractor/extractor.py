@@ -1,4 +1,4 @@
-#!/usr/bin/env python3333333333
+#!/bin/env python3
 
 """
 Module that performs extraction. For usage, refer to documentation for the class

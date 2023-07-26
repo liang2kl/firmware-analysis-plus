@@ -8,11 +8,13 @@ WORKDIR /root/firmware-analysis-plus
 
 RUN echo 'root:root' | chpasswd
 
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list && apt-get clean && \
+RUN sed -i s@/archive.ubuntu.com/@/mirrors.tuna.tsinghua.edu.cn/@g /etc/apt/sources.list && \
+    grep -v '^deb http://security' /etc/apt/sources.list > /tmp/list && cat /tmp/list > /etc/apt/sources.list && rm /tmp/list && \
+    apt-get clean && \
     apt-get update --allow-unauthenticated && apt-get install -y lsb-release sudo python3-pip python3-pexpect unzip busybox-static fakeroot kpartx snmp uml-utilities util-linux vlan qemu-utils binwalk && \
     apt-get clean autoclean && apt-get autoremove --yes && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install python-magic --no-cache-dir -i https://pypi.mirrors.ustc.edu.cn/simple/
+RUN pip3 install python-magic --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 COPY . .
 
